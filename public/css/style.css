@@ -1,0 +1,63 @@
+label{
+    padding-right : 5px;
+ }
+ textarea{
+     margin-top : 15px;
+     padding : 5px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     background-color: #f9f9f9;
+     cursor: pointer;
+ }
+
+ input,select,textarea{
+    margin : 10px;
+    padding : 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 300px;
+ }
+ select{
+    margin-right: 50px;
+ }
+ #form_category{
+    margin-right: 50px;
+ }
+ textarea{
+    margin-right: 70px;
+ }
+ #simpleform{
+       text-align: center;
+       margin: 30px auto;
+       width: 100%;
+       max-width: 800px;
+       font-size : 20px;
+ }
+ h3{
+     text-align: center;
+     margin: 30px auto;
+     width: 100%;
+     max-width: 800px;
+     font-size : 45px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ button{
+     margin : 20px 0;
+     padding : 5px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     background-color: #f9f9f9;
+     cursor: pointer;
+ }
+ button:hover{
+     background-color: #e4e4e4;
+ }
+
+ input[type="file"] {
+    margin-right: 30px;
+  }

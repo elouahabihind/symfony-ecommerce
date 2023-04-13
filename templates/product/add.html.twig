@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<h3>Ajouter un produit :</h3> 
+   <div id="simpleform"> 
+    {{ form_start(form) }}   {# <form> #}
+    {{ form_widget(form) }}  {# <input> #}
+    {{ form_end(form) }}  {# </form> #}
+   </div>
+{% endblock %}
+
+    

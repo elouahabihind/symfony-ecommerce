@@ -1,0 +1,15 @@
+    {% extends 'base.html.twig' %}
+    {% block body %}
+    <center>
+    {% if product is not null %}
+    <div class="product">
+      <img src="{{ asset('images/' ~ product.image) }}" style="width:300px" alt="Product Image">
+      <p> Nom: {{ product.nom }}</p>
+      <p class="price">Prix: {{ product.prix }} Dhs</p>
+      <p class="description"> Description: {{ product.description }}</p>
+    </div>
+    {% else %}
+      <h2>Product not found</h2>
+    {% endif %}
+    </center>
+    {% endblock %}
